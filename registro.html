@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redo</title>
+    <link rel="stylesheet" href="registro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="/Img/Logo Principal.png" alt="Logo">
+        <h2 class="logo"></h2>
+        <nav class="navigation">
+    <div class="dropdown">
+        <a href="#">Agenda</a>
+        <div class="dropdown-menu">
+            <a href="#">Eventos</a>
+            <a href="#">Recordatorios</a>
+            <a href="#">Historial</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Clasificación de Residuos</a>
+        <div class="dropdown-menu">
+            <a href="/Organicos/Organicos.html" target="_blank">Orgánicos</a>
+            <a href="#">Inorgánicos</a>
+            <a href="#">Especiales</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Ubicación y Horario</a>
+        <div class="dropdown-menu">
+            <a href="#">Mapas</a>
+            <a href="#">Horarios</a>
+            <a href="#">Centros Cercanos</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Eco Billetera</a>
+        <div class="dropdown-menu">
+            <a href="#">Saldo</a>
+            <a href="#">Movimientos</a>
+            <a href="#">Recargar</a>
+        </div>
+    </div>
+    <button class="login">Login</button>
+</nav>
+
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>LOGIN</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remenber-forgot">
+                    <label><input type="checkbox">
+                        recuerdame</label>
+                        <a href="#">¿Olvide Mi Contraseña?</a>
+                </div>
+                <button type="submit" class="btn">login
+                </button>
+                <div class="login-register">
+                    <p>¿No Tienes Una Cuentas?  <a 
+                        href="#"
+                        class="register-link">Registro</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registrate</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remenber-forgot">
+                    <label><input type="checkbox">
+                        aceptas terminos y condiciones</label>
+                </div>
+                <button type="submit" class="btn">aceptar
+                </button>
+                <div class="login-register">
+                    <p>¿ya tienes una cuenta? 
+                        <a href="#"class="login-link">login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
